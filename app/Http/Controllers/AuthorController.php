@@ -16,7 +16,7 @@ class AuthorController extends Controller
      */
     public function index()
     {
-        return AuthorResource::collection(Author ::get()->take(5));
+        return AuthorResource::collection(Author ::get()->take(3));
     }
 
     /**
